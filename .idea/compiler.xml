@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="blog_base" />
+        <module name="blog_oss" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="blog_base" target="1.5" />
+      <module name="blog_oss" target="1.5" />
       <module name="lint_blog" target="1.5" />
     </bytecodeTargetLevel>
   </component>
